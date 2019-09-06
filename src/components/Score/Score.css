@@ -1,0 +1,15 @@
+.score-header{
+     background-color: #000000;
+     color: #FFFFFF;
+     padding: 0%;
+     margin: 0%;
+     padding: 1%;
+     font-size: 1.5em;
+     text-align: center;
+     /* position: absolute;
+     top: 0;
+     z-index: 0; */
+}
+.score-labels{
+     margin: 0 15px;
+}

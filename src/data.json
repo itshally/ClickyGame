@@ -1,0 +1,62 @@
+[
+     {
+          "id" : 0,
+          "image" : "./img/img-0.jpg",
+          "name" : "Lucifer Morningstar"
+     },
+     {
+          "id" : 1,
+          "image" : "./img/img-1.jpg",
+          "name" : "Chloe Decker"
+     },
+     {
+          "id" : 2,
+          "image" : "./img/img-2.jpg",
+          "name" : "Amenadiel"
+     },
+     {
+          "id" : 3,
+          "image" : "./img/img-3.jpg",
+          "name" : "Eve"
+     },
+     {
+          "id" : 4,
+          "image" : "./img/img-4.jpg",
+          "name" : "Mazikeen"
+     },
+     {
+          "id" : 5,
+          "image" : "./img/img-5.jpg",
+          "name" : "Charlotte Richards / Goddess"
+     },
+     {
+          "id" : 6,
+          "image" : "./img/img-6.jpg",
+          "name" : "Marcus Pierce / Cain"
+     },
+     {
+          "id" : 7,
+          "image" : "./img/img-7.jpg",
+          "name" : "Azrael"
+     },
+     {
+          "id" : 8,
+          "image" : "./img/img-8.jpg",
+          "name" : "Linda Martin"
+     },
+     {
+          "id" : 9,
+          "image" : "./img/img-9.jpg",
+          "name" : "Ella Lopez"
+     },
+     {
+          "id" : 10,
+          "image" : "./img/img-10.jpg",
+          "name" : "Dan Espinoza"
+     },
+     {
+          "id" : 11,
+          "image" : "./img/img-11.jpg",
+          "name" : "Trixie Espinoza"
+     }
+]
