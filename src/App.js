@@ -15,40 +15,47 @@ class App extends Component {
   };
 
   scoreCount = id => {
-    
+    //declaring variables
     let clicked = this.state.clicked;
     let topScore = this.state.topScore;
-    console.log('image clicked')
-    // shuffle(this.state.data)
+
     if(clicked.indexOf(id) === -1){
-      
       clicked.push(id)
       this.setState({ 
         data: shuffle(data),
         currentScore: this.state.currentScore+1
       });
-
-      console.log(shuffle(this.state.data));
-      console.log(this.state.currentScore); 
-
+      //displaying the current scores per right click
       $('#scoreValue').text(this.state.currentScore);
-
-      // $('#topScoreValue').text(this.state.topScore);
- 
+    }else{
+      $('#scoreValue').text(0);
+      if(this.state.currentScore > this.state.topScore){
+        topScore = this.state.currentScore-1;
+        this.setState({ 
+          currentScore: 1,
+          topScore: topScore,
+          clicked: []
+        });
+      }else{
+        this.setState({ 
+          currentScore: 1,
+          clicked: []
+        });
+      }
+      
+      //displaying the current top score
+      $('#topScoreValue').text(topScore);
     }
     
-    //change 5 to this.state.data.length
-    if(this.state.clicked.length === 3){
+    if(this.state.clicked.length === this.state.data.length){
       $('#scoreValue').text(0);
-      topScore = this.state.currentScore;
+      topScore = this.state.clicked.length;
       this.setState({ 
         currentScore: 1,
-        topScore: topScore,
+        topScore: this.state.clicked.length,
         clicked: []
       });
-      console.log(this.state.topScore)
-      $('#topScoreValue').text(topScore);
-      alert('done!')
+      $('#topScoreValue').text('You Win!');
     }   
     
   };
