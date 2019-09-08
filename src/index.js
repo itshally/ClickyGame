@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Score from './components/Score/Score';
+import Score from './components/Score';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

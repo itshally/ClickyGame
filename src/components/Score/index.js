@@ -1,7 +1,7 @@
 import React from 'react';
-import './Score.css';
+import './style.css';
 
-function Score(){
+const Score = x => {
      return (
           <div className="Score">
                <div className="container-fluid score-header">
@@ -17,7 +17,7 @@ function Score(){
                                    Score: <span id="scoreValue">0</span>
                               </label> | 
                               <label className="score-labels" id="top-score-holder">
-                                   Top Score: <span id="topScoreValue">0</span>
+                                   Top Score: <span id="topScoreValue">{x.topScore}</span>
                               </label>
                          </div>
                     </div>
