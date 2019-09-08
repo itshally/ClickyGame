@@ -58,5 +58,95 @@
           "id" : 11,
           "image" : "./img/img-11.jpg",
           "name" : "Trixie Espinoza"
+     },
+     {
+          "id" : 12,
+          "image" : "./img/img-12.png",
+          "name" : "Yellow Viper"
+     },
+     {
+          "id" : 13,
+          "image" : "./img/img-13.jpg",
+          "name" : "Uriel"
+     },
+     {
+          "id" : 14,
+          "image" : "./img/img-14.png",
+          "name" : "Hector"
+     },
+     {
+          "id" : 15,
+          "image" : "./img/img-15.jpg",
+          "name" : "Ty Huntley"
+     },
+     {
+          "id" : 16,
+          "image" : "./img/img-16.jpg",
+          "name" : "Jacob Williams"
+     },
+     {
+          "id" : 17,
+          "image" : "./img/img-17.png",
+          "name" : "Carmen Grant"
+     },
+     {
+          "id" : 18,
+          "image" : "./img/img-18.jpg",
+          "name" : "Malcolm Graham"
+     },
+     {
+          "id" : 19,
+          "image" : "./img/img-19.jpg",
+          "name" : "Reese Getty"
+     },
+     {
+          "id" : 20,
+          "image" : "./img/img-20.png",
+          "name" : "Squee"
+     },
+     {
+          "id" : 21,
+          "image" : "./img/img-21.jpg",
+          "name" : "Candy Fletcher"
+     },
+     {
+          "id" : 22,
+          "image" : "./img/img-22.jpg",
+          "name" : "Sinnerman"
+     },
+     {
+          "id" : 23,
+          "image" : "./img/img-23.png",
+          "name" : "William Kinley / Dromos"
+     },
+     {
+          "id" : 24,
+          "image" : "./img/img-24.jpg",
+          "name" : "Penelope Decker"
+     },
+     {
+          "id" : 25,
+          "image" : "./img/img-25.jpg",
+          "name" : "John Decker"
+     },
+     {
+          "id" : 26,
+          "image" : "./img/img-26.jpg",
+          "name" : "Remiel"
+     },
+     {
+          "id" : 27,
+          "image" : "./img/img-27.jpg",
+          "name" : "Frank Lawrence"
+     },
+     {
+          "id" : 28,
+          "image" : "./img/img-28.jpg",
+          "name" : "Earl Johnson"
+     },
+     {
+          "id" : 29,
+          "image" : "./img/img-29.jpg",
+          "name" : "Abel"
      }
 ]

@@ -6,6 +6,7 @@ import $ from 'jquery';
 var shuffle = require('shuffle-array'),
     alertify = require('alertifyjs');
 
+    var arrayOfImages = [];
 class App extends Component {
   
   state = {
@@ -14,8 +15,10 @@ class App extends Component {
     topScore: 0,
     clicked: []
   };
-
+  
+  
   scoreCount = id => {
+    
     //declaring variables
     let clicked = this.state.clicked;
     let topScore = this.state.topScore;
@@ -26,6 +29,7 @@ class App extends Component {
         data: shuffle(data),
         currentScore: this.state.currentScore+1
       });
+      
       //displaying the current scores per right click
       $('#scoreValue').text(this.state.currentScore);
     }else{
@@ -68,12 +72,17 @@ class App extends Component {
     
   };
   
+  
+
+
   render(){
+    // console.log(this.state.data[0])
+    // console.log(o)
     return (
       <div className="App container">
         <Container>
           <div className="row">
-            {this.state.data.map(character => (
+            {this.state.data.slice(0,9).map(character => (
               <CharacterCard
                 key={character.id}
                 scoreCount={this.scoreCount}
@@ -81,7 +90,7 @@ class App extends Component {
                 name={character.name}
                 image={character.image}
               />
-            ))}
+            ))});
           </div>
         </Container>
       </div>
@@ -90,7 +99,6 @@ class App extends Component {
 }
 
 export default App;
-
 
 function Alertify(x) {
   alertify.minimalDialog || alertify.dialog('minimalDialog',function(){
