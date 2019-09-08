@@ -24,3 +24,18 @@ body {
   font-size: 3em;
   text-shadow: 2px 2px 10px;
 }
+footer{
+  margin: auto 0;
+  padding: 2%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+footer p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
