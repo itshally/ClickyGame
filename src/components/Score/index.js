@@ -7,7 +7,7 @@ const Score = x => {
                <div className="container-fluid score-header">
                     <div className="row">
                          <div className="col-12 col-md-4">
-                              <label>Clicky Game</label>
+                              <label id="title">LUCIFER</label>
                          </div>
                          <div className="col-12 col-md-4">
                               <label id="status">Click an image to begin!</label>
