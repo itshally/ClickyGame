@@ -17,7 +17,7 @@ const Score = x => {
                                    Score: <span id="scoreValue">0</span>
                               </label> | 
                               <label className="score-labels" id="top-score-holder">
-                                   Top Score: <span id="topScoreValue">{x.topScore}</span>
+                                   Top Score: <span id="topScoreValue">0</span>
                               </label>
                          </div>
                     </div>
